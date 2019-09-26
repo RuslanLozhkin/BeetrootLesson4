@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="30" viewBox="0 0 48 30">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1275b9;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Tablet" class="cls-1" d="M42.266,29.975H29.735a4.873,4.873,0,0,1-4.772-4.958V4.944A4.873,4.873,0,0,1,29.735-.014H42.266a4.873,4.873,0,0,1,4.772,4.958V25.017A4.874,4.874,0,0,1,42.266,29.975ZM29.735,2A2.9,2.9,0,0,0,26.9,4.944V25.017a2.9,2.9,0,0,0,2.837,2.948H42.266A2.9,2.9,0,0,0,45.1,25.017V4.944A2.9,2.9,0,0,0,42.266,2H29.735ZM36,26.818a1.006,1.006,0,1,1,.968-1.006A0.988,0.988,0,0,1,36,26.818ZM36.969,5.431H35.034a1.006,1.006,0,0,1,0-2.011h1.935A1.006,1.006,0,0,1,36.969,5.431Z"/>
+  <image id="Tablet_копия" data-name="Tablet копия" width="24" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAeCAYAAAA2Lt7lAAABJElEQVRIie2WwUoCURiFT6NgQhZSz9Da56iFG3FVULjzjVrVwnfoEYJAqq0rH0DIJIgM/eKv/8JF8OpItLoHDnPvzH/OmZnNPQIC94A+8AzMKY+5a/vu9eMbmw92MF2HQQgJAT1/MAE6wH70Zduy5tqJe/XigKHfPE8YmPjG2UnMnbnXMARUgAUwA4qEcBz9gnFizjzegC9bVyUdSCokvUpaaj26klq+fknMmcdU0qGkRjUxuIpHZykUZQU5IAfkgByQA3LAfwQ0nVvDuktF0qekD0lHG87lkV9PEzOFn8l1STXbLCQ9+eHf3vBC984UzKPhxWAZqsaF15EpcA2cAM2SPHateRgu4+JlvP3D6ni32k1DP70CHoD3HUxNY1rz+C2/oG+4xbMVS4z06QAAAABJRU5ErkJggg=="/>
+</svg>

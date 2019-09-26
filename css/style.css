@@ -1,0 +1,100 @@
+/*text color 9b9b9b text font-size 14px
+  icon color 2a69a6
+  icon background color 1275b9
+  icon title color 000000 title font-size 14px title block height 50px
+  main section widht 220px
+  main section height 170px
+  icon circle radius 65px */
+body {
+    padding: 0;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-size: 14px;
+}
+*{
+    transition: all .1s ease-in;
+}
+.services {
+    width: 858px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.service {
+    width: 220px;
+    text-align: center;
+    clear: both;
+    vertical-align: top;
+}
+.service:first-child {
+    float: left;
+    margin-top: -5px;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+.service:nth-child(2) {
+    float: left;
+    position: absolute;
+    left: calc(50% - 110px);
+    margin-top: -20px;
+}
+.service:last-child {
+   float: right;
+   margin-top: -195px;
+
+}
+section article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #1275b9;
+    position: relative;
+}
+section article span {
+    display: inline-block;
+    position: absolute;
+}
+section[data-block="Table"] article span {
+    width: 24px;
+    height: 30px;
+    background: url(Tablet.svg);
+    background-position-x: left;
+    top: calc(50% - 15px);
+    left: calc(50% - 12px);
+}
+section[data-block="Settings"] article span {
+    width: 26px;
+    height: 26px;
+    background: url(Settings.svg);
+    background-position-x: left;
+    top: calc(50% - 13px);
+    left: calc(50% - 13px);
+}
+section[data-block="Dashboard"] article span {
+    width: 28px;
+    height: 24px;
+    background: url(Dashboard.svg);
+    background-position-x: left;
+    top: calc(50% - 14px);
+    left: calc(50% - 12px);
+}
+section article:hover{
+    background-color: #fff;
+    border: 1px solid #2a69a6;
+}
+section article:hover  span {
+    background-position-x: -100%;
+}
+section  span {
+    line-height: 50px;
+    text-transform: uppercase;
+}
+span + p {
+    margin: 0;
+    color: #9b9b9b;
+}
